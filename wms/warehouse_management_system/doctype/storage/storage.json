@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Prompt",
+ "creation": "2024-07-02 00:43:43.373849",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_5tqg",
+  "storage_name",
+  "is_group",
+  "company",
+  "tree_details_section",
+  "parent_storage",
+  "section_break_6clm",
+  "old_parent",
+  "dimension_section",
+  "length",
+  "wide",
+  "column_break_bcox",
+  "height",
+  "locations",
+  "lft",
+  "rgt"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_5tqg",
+   "fieldtype": "Section Break",
+   "label": "Storage Details"
+  },
+  {
+   "fieldname": "storage_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Storage Name",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tree_details_section",
+   "fieldtype": "Section Break",
+   "label": "Tree Details"
+  },
+  {
+   "fieldname": "parent_storage",
+   "fieldtype": "Link",
+   "label": "Parent Storage",
+   "options": "Storage"
+  },
+  {
+   "fieldname": "lft",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Left",
+   "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "read_only": 1
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "label": "Old Parent",
+   "options": "Storage"
+  },
+  {
+   "fieldname": "dimension_section",
+   "fieldtype": "Section Break",
+   "label": "Dimension"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "label": "Length"
+  },
+  {
+   "fieldname": "wide",
+   "fieldtype": "Float",
+   "label": "Wide"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height"
+  },
+  {
+   "fieldname": "column_break_bcox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6clm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "locations",
+   "fieldtype": "Float",
+   "label": "Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_tree": 1,
+ "links": [],
+ "modified": "2024-07-10 23:47:39.339520",
+ "modified_by": "Administrator",
+ "module": "Warehouse Management system",
+ "name": "Storage",
+ "naming_rule": "Set by user",
+ "nsm_parent_field": "parent_storage",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

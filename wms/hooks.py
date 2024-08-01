@@ -1,7 +1,7 @@
 app_name = "wms"
-app_title = "Warehouse Management system"
-app_publisher = "Nasir"
-app_description = "Warehouse Management system"
+app_title = "WMS"
+app_publisher = "nasiransari97177@gmail.com"
+app_description = "Warehouse Mangement System"
 app_email = "nasiransari97177@gmail.com"
 app_license = "mit"
 # required_apps = []

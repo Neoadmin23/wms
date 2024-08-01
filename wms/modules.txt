@@ -1,1 +1,1 @@
-Warehouse Management system
+WMS

@@ -1,6 +1,6 @@
-## Warehouse Management system
+## WMS
 
-Warehouse Management system
+Warehouse Mangement System
 
 #### License
 
